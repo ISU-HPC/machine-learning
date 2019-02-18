@@ -85,3 +85,9 @@ AUTHOR Yasasvy Nanyam ynanyam@iastate.edu
   
   #pytorch
   pip2 --no-cache-dir install torch torchvision
+  
+  # Upgrade pytorch for python2 and python3
+  
+  pip2 --no-cache-dir install --upgrade torch torchvision
+  
+  pip3 --no-cache-dir install --upgrade torch torchvision
